@@ -1,0 +1,39 @@
+# Galleria::Rails
+
+This gem adds the JS Galleria library (see http://galleria.io) to your project.
+The plugin follows Galleria version number. Current version of the plugin:
+1.2.9
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'galleria-rails'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install galleria-rails
+
+## Usage
+
+Then you need to require the javascript in your application.js.
+
+    //= require galleria
+
+Then you can include the classic theme by adding this
+    //= require galleria/classic
+
+and the corresponding theme stylesheet file into your application.css
+    *= require galleria/classic
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
