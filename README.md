@@ -9,7 +9,7 @@ Current version: 1.2.9.
 
 Add this line to your application's Gemfile:
 
-    gem 'galleria-rails'
+    gem 'galleria-rails', github: 'albandiguer/galleria-rails'
 
 And then execute:
 
@@ -19,7 +19,7 @@ And then execute:
 
 You need to require the javascript in your application.js.
 
-    //= require galleria, github: 'albandiguer/galleria-rails'
+    //= require galleria
 
 Optionally you can include the classic theme by adding this
 
