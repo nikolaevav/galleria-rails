@@ -1,8 +1,9 @@
 # Galleria::Rails
 
-This gem adds the JS Galleria library (see http://galleria.io) to your project.
-The plugin follows Galleria version number. Current version of the plugin:
-1.2.9
+Add easily the JS Galleria library (see http://galleria.io) to your rails
+project.  
+The plugin version follows Galleria version number.
+Current version: 1.2.9.
 
 ## Installation
 
@@ -14,20 +15,18 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install galleria-rails
-
 ## Usage
 
-Then you need to require the javascript in your application.js.
+You need to require the javascript in your application.js.
 
     //= require galleria
 
-Then you can include the classic theme by adding this
+Optionally you can include the classic theme by adding this
+
     //= require galleria/classic
 
 and the corresponding theme stylesheet file into your application.css
+
     *= require galleria/classic
 
 ## Contributing
