@@ -19,15 +19,15 @@ And then execute:
 
 You need to require the javascript in your application.js.
 
-    //= require galleria
+    //= require galleria.min
 
 Optionally you can include the classic theme by adding this
 
-    //= require galleria/classic
+    //= require galleria.classic.min
 
 and the corresponding theme stylesheet file into your application.css
 
-    *= require galleria/classic
+    *= require galleria.classic
 
 ## Contributing
 
