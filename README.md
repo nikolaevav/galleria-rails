@@ -33,6 +33,15 @@ or for application.css.sass
 
     @import galleria.classic
 
+Quick start, add to your js file
+
+    Galleria.run('.galleria', {
+      transition: 'fade',
+      imageCrop: true,
+      height: 400,
+      autoplay: 7000
+    });
+
 ## Contributing
 
 1. Fork it
