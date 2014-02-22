@@ -3,13 +3,13 @@
 Add easily the JS Galleria library (see http://galleria.io) to your rails
 project.  
 The plugin version follows Galleria version number.
-Current version: 1.2.9.
+Current version: 1.3.5.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'galleria-rails', github: 'albandiguer/galleria-rails'
+    gem 'galleria-rails', github: 'nikolaevav/galleria-rails'
 
 And then execute:
 
@@ -28,6 +28,10 @@ Optionally you can include the classic theme by adding this
 and the corresponding theme stylesheet file into your application.css
 
     *= require galleria.classic
+
+or for application.css.sass
+
+    @import galleria.classic
 
 ## Contributing
 
